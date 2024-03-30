@@ -14,9 +14,9 @@ Scale up and down the application based on resource utilization.
 - kubectl config use-context docker-desktop
 - kubectl get nodes
 - kubectl get all
-- .\download-metrics-components.ps1 (Download metric components)
+- .\DownloadMetricsComponents.ps1 (Download metric components)
 - (Add --kubelet-insecure-tls in components.yaml)
-- kubectl apply -f .\components.yaml
+- kubectl apply -f .\Components.yaml
 - kubectl apply -f .\DeployingBasicApplication.yaml
 - kubectl describe deployment nginx
 - kubectl describe horizontalpodautoscaler nginx
