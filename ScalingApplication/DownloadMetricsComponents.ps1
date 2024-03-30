@@ -2,7 +2,7 @@
 $url = "https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml"
 
 # Specify the path where the downloaded file will be saved
-$destination_path = (Get-Item .).FullName + "/components.yaml"
+$destination_path = (Get-Item .).FullName + "/Components.yaml"
 
 # Create a WebClient object
 $webClient = New-Object System.Net.WebClient
