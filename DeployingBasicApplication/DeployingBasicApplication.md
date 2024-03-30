@@ -4,7 +4,7 @@
 Using Kubernetes manifests, deploy a basic application to the cluster.
 
 ### Requirements:
-- The application should consist of a single pod running a simple web server.✅
+- The application should consist of a single pod running a simple web server. ✅
 - Use a publicly available Docker image. ✅
 - Expose the application internally within the cluster. ✅
 - Configure a Kubernetes service to expose the application externally for access outside the cluster. ✅
